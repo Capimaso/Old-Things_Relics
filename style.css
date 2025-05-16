@@ -1,15 +1,16 @@
-#logo{
-    transform: translate(-50%,-50%);
+#logo {
+    transform: translate(-50%, -50%);
     width: 200px;
     height: 200px;
-    cursor:pointer;
+    cursor: pointer;
     position: absolute;
     top: 80px;
     left: 50vw;
     z-index: 4;
 }
-#logoBg{
-    transform: translate(-50%,-50%);
+
+#logoBg {
+    transform: translate(-50%, -50%);
     background-color: rgb(90, 90, 90);
     border-radius: 50%;
     width: 180px;
@@ -20,13 +21,22 @@
     z-index: 3;
     transition: opacity 0.5s;
 }
-#banner{
+
+#banner {
     position: absolute;
-    top:-400px;
+    top: -400px;
     left: 0px;
+    width: 100vw;
     z-index: -1;
 }
-#header{
+
+#banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#header {
     width: 100vw;
     height: 120px;
     background-color: rgb(180, 148, 79);
@@ -36,7 +46,8 @@
     z-index: 2;
     transition: opacity 0.5s;
 }
-#pageNav{
+
+#pageNav {
     font-size: 30;
     position: absolute;
     top: 60px;
@@ -44,16 +55,21 @@
     z-index: 3;
     text-shadow: rgb(236, 236, 236) 0px 0px 5px;
 }
+
 #pageNav nav {
     display: flex;
-    flex-direction: row; /* Ou 'row' se quiser na horizontal */
-    gap: 50px; /* Define o espaçamento entre os <a> */
+    flex-direction: row;
+    /* Ou 'row' se quiser na horizontal */
+    gap: 50px;
+    /* Define o espaçamento entre os <a> */
 }
-#pageNav a{
+
+#pageNav a {
     text-decoration: none;
-    color:#ffffff;
+    color: #ffffff;
 }
-#homePhrase{
+
+#homePhrase {
     font-size: 53;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -61,90 +77,103 @@
     top: 350px;
     left: 50vw;
 }
-#bioTitle{
+
+#bioTitle {
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: white;
     top: 950;
     left: 50vw;
     font-size: 50;
 }
-#bioText{
+
+#bioText {
     position: absolute;
-    transform: translate(-50%,0%);
+    transform: translate(-50%, 0%);
     color: white;
     top: 1050;
     left: 50vw;
     font-size: 35;
 }
-#productTitle{
+
+#productTitle {
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: white;
-    top: 1500;
+    top: 1530;
     left: 50vw;
     font-size: 50;
 }
-#foot{
+
+#foot {
     width: 100vw;
     height: 100px;
     background-color: rgb(180, 148, 79);
     position: absolute;
-    top: 3400px;
+    top: 3000px;
     left: 0px;
     font-size: 30;
 }
-#foot a{
+
+#foot a {
     text-decoration: none;
-    color:#ffffff;
+    color: #ffffff;
 }
-#itemContainer{
+
+#itemContainer {
     background-color: black;
     color: rgb(216, 216, 216);
     position: absolute;
     text-align: center;
-    width: 400px;
-    height: 300px;
+    width: 21vw;
+    height: 38vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    cursor:pointer;
+    cursor: pointer;
 }
-#itemContainer img{
+
+#itemContainer img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-#titleContainer{
-    background-color:  rgb(117, 96, 51);
+
+#titleContainer {
+    background-color: rgb(117, 96, 51);
     height: 180px;
     padding-top: 1px;
-    font-size:29;
+    font-size: 1.5vw;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-#textContainer{
-    font-size: large;
+
+#textContainer {
+    font-size: 1vw;
 }
-#footContainer{
-    font-size: large;
+
+#footContainer {
+    font-size: 1vw;
 }
-#moreProducts{
+
+#moreProducts {
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: white;
     top: 2800;
     left: 50vw;
     font-size: 38;
     cursor: pointer;
+    text-decoration: none;
 }
-#rightsReserved{
+
+#rightsReserved {
     position: absolute;
-    transform: translate(0%,100%);
+    transform: translate(0%, -200%);
     color: white;
-    top: 3430;
-    left: 1vw;
-    font-size: 20;
+    top: 3100;
+    left: 0.5vw;
+    font-size: 15;
     z-index: 2;
 }
