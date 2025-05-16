@@ -1,0 +1,150 @@
+#logo{
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 200px;
+    cursor:pointer;
+    position: absolute;
+    top: 80px;
+    left: 50vw;
+    z-index: 4;
+}
+#logoBg{
+    transform: translate(-50%,-50%);
+    background-color: rgb(90, 90, 90);
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 60px;
+    left: 50vw;
+    z-index: 3;
+    transition: opacity 0.5s;
+}
+#banner{
+    position: absolute;
+    top:-400px;
+    left: 0px;
+    z-index: -1;
+}
+#header{
+    width: 100vw;
+    height: 120px;
+    background-color: rgb(180, 148, 79);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    transition: opacity 0.5s;
+}
+#pageNav{
+    font-size: 30;
+    position: absolute;
+    top: 60px;
+    right: 1vw;
+    z-index: 3;
+    text-shadow: rgb(236, 236, 236) 0px 0px 5px;
+}
+#pageNav nav {
+    display: flex;
+    flex-direction: row; /* Ou 'row' se quiser na horizontal */
+    gap: 50px; /* Define o espaçamento entre os <a> */
+}
+#pageNav a{
+    text-decoration: none;
+    color:#ffffff;
+}
+#homePhrase{
+    font-size: 53;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 350px;
+    left: 50vw;
+}
+#bioTitle{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: white;
+    top: 950;
+    left: 50vw;
+    font-size: 50;
+}
+#bioText{
+    position: absolute;
+    transform: translate(-50%,0%);
+    color: white;
+    top: 1050;
+    left: 50vw;
+    font-size: 35;
+}
+#productTitle{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: white;
+    top: 1500;
+    left: 50vw;
+    font-size: 50;
+}
+#foot{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(180, 148, 79);
+    position: absolute;
+    top: 3400px;
+    left: 0px;
+    font-size: 30;
+}
+#foot a{
+    text-decoration: none;
+    color:#ffffff;
+}
+#itemContainer{
+    background-color: black;
+    color: rgb(216, 216, 216);
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor:pointer;
+}
+#itemContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#titleContainer{
+    background-color:  rgb(117, 96, 51);
+    height: 180px;
+    padding-top: 1px;
+    font-size:29;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#textContainer{
+    font-size: large;
+}
+#footContainer{
+    font-size: large;
+}
+#moreProducts{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: white;
+    top: 2800;
+    left: 50vw;
+    font-size: 38;
+    cursor: pointer;
+}
+#rightsReserved{
+    position: absolute;
+    transform: translate(0%,100%);
+    color: white;
+    top: 3430;
+    left: 1vw;
+    font-size: 20;
+    z-index: 2;
+}
